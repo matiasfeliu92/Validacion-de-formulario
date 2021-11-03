@@ -3,7 +3,7 @@
 }
 
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     background: #E5E5E5;
 }
 
@@ -38,11 +38,12 @@ main {
 
 .formulario__input {
     width: 100%;
-    background: #fff;
-    border: 3px solid transparent;
-    border-radius: 3px;
+    background: transparent;
+    border-bottom: 2px solid black;
+    border-top: none;
+    border-left: none;
+    border-right: none;
     height: 45px;
-    line-height: 45px;
     padding: 0 40px 0 10px;
     transition: .3s ease all;
 }
@@ -123,7 +124,8 @@ main {
 }
 
 .formulario__mensaje-exito {
-    font-size: 14px;
+    font-size: 20px;
+    font-weight: bold;
     color: #119200;
     display: none;
 }
@@ -150,7 +152,7 @@ main {
 }
 
 .formulario__grupo-incorrecto .formulario__input {
-    border: 3px solid #bb2929;
+    border-bottom: 2px solid #bb2929;
 }
 
 
